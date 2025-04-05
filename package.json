@@ -1,16 +1,25 @@
 {
-  "name": "dom",
+  "name": "node_server",
   "version": "1.0.0",
-  "main": "node1.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.21.2",
+    "Express": "^3.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poonam-1997/node_server.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+  "bugs": {
+    "url": "https://github.com/Poonam-1997/node_server/issues"
+  },
+  "homepage": "https://github.com/Poonam-1997/node_server#readme"
 }
